@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Jacques Francois';
+    background-color: #222222;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    background-color: #AB8752;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.2vw;
+    padding: 10px 20px;
+    border-radius: 10px; 
+   
+}
+
+nav ul li a:hover {
+    background-color: #AB8752; 
+}
+
+main h1 {
+    font-size: 3vw;
+    color: white;
+}
+
+.equipo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 2% auto;
+    padding: 2%;
+    background-color: #705333;
+    border-radius: 20px;
+}
+
+.integrante_equipo {
+    text-align: center;
+    margin: 20px;
+    width: 22%; 
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.integrante_equipo a {
+    font-size: 1.2vw;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 400px) {
+    .equipo {
+        flex-direction: column;
+    }
+
+    .integrante_equipo {
+        margin: 10px;
+    }
+
+    nav ul li a {
+        font-size: 4vw;
+    }
+}
