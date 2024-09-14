@@ -47,11 +47,11 @@ main h1 {
 
 .equipo {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:space-between;
+    align-items:center;
     flex-wrap: wrap;
     width: 80%;
-    margin: 2% auto;
+    margin: 6% auto;
     padding: 2%;
     background-color: #705333;
     border-radius: 20px;
@@ -59,20 +59,20 @@ main h1 {
 
 .integrante_equipo {
     text-align: center;
-    margin: 20px;
-    width: 22%; 
+    margin: 50px;
+    width: 15%; 
 }
 
 .photo {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 140px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 10px;
 }
 
 .integrante_equipo a {
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     color: white;
     text-decoration: none;
     display: block;
