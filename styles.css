@@ -98,14 +98,14 @@ main h1 {
 }
 
 .proyecto {
-    background-color: #ddd;
+    background-color: #AB8752;
     width: 45%;
     padding: 20px;
     text-align: left;
 }
 
 .foto {
-    background-color: #bbb;
+    background-color: #AB8752;
     width: 100%;
     height: 150px;
     margin-bottom: 10px;
@@ -126,7 +126,7 @@ main h1 {
 }
 
 .tecnologias .logo {
-    background-color: #ddd;
+    background-color: #AB8752;
     width: 100px;
     height: 100px;
     display: flex;
@@ -146,38 +146,38 @@ main h1 {
 }
 .proyectos {
     display: flex;
-    justify-content: center; /* Centra los elementos hijos horizontalmente */
-    flex-wrap: wrap; /* Permite que los elementos se ajusten en pantallas más pequeñas */
-    gap: 20px; /* Espacio entre las cards */
-    margin: 20px auto; /* Centra el contenedor de proyectos */
-    max-width: 1200px; /* Limita el ancho máximo del contenedor */
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    margin: 20px auto; 
+    max-width: 1200px; 
 }
 
 .proyecto {
-    background-color: #ddd;
-    width: 45%; /* Ocupa el 45% del espacio disponible */
-    max-width: 400px; /* Limita el ancho máximo de cada card */
+    background-color: #AB8752;
+    width: 45%; 
+    max-width: 400px; 
     padding: 20px;
     text-align: left;
     border-radius: 10px;
-    margin-bottom: 20px; /* Espacio inferior entre cards */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para mejorar la apariencia */
+    margin-bottom: 20px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
 }
 .proyecto p {
-    margin: 0; /* Elimina márgenes alrededor del texto */
-    padding: 10px; /* Añade espacio dentro del contenedor */
-    text-align: left; /* Alinea el texto a la izquierda */
+    margin: 0; 
+    padding: 10px;
+    text-align: left; 
 }
 .foto img {
-    width: 100%; /* La imagen se ajusta al ancho de su contenedor */
-    max-height: 200px; /* Limita la altura máxima para evitar imágenes excesivamente grandes */
-    object-fit: contain; /* Mantiene las proporciones de la imagen */
+    width: 100%; 
+    max-height: 200px; 
+    object-fit: contain; 
     border-radius: 10px;
 }
 .foto {
-    background-color: #bbb;
+    background-color: #AB8752;
     width: 100%;
-    height: auto; /* Ajusta la altura automática dependiendo de la imagen */
+    height: auto;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -187,8 +187,8 @@ main h1 {
 
 .imagen-ajustada {
     max-height: 150px;
-    width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
-    object-fit: contain; /* Mantiene la proporción de la imagen */
+    width: 100%; 
+    object-fit: contain;
     margin: 0 auto;
     display: block;
 }
@@ -201,26 +201,26 @@ main h1 {
 .tecnologias h2 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: white; /* Ajusta el color según el diseño */
+    color: white; 
 }
 
 .logos {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px; /* Espacio entre los logos */
-    flex-wrap: wrap; /* Para que se adapten en pantallas pequeñas */
+    gap: 30px;
+    flex-wrap: wrap; 
 }
 
 .logos div {
-    width: 150px; /* Ajusta este valor para el tamaño deseado */
-    height: 150px; /* Establece la misma altura para todos */
+    width: 150px; 
+    height: 150px; 
 }
 
 .logos img {
     width: 100%;
     height: 100%;
-    object-fit: contain; /* Para que las imágenes mantengan la proporción */
+    object-fit: contain; 
     display: block;
     margin: 0 auto;
 }
@@ -244,14 +244,15 @@ main h1 {
     nav ul li a {
         padding: 15px;
         display: block;
-        text-align: left;
+        text-align: center;
+        font-size: 10px;
         color: white;
-        background-color: #444;
-        border-bottom: 1px solid #555;
+        background-color: #AB8752;
+        border-bottom: 1px solid #AB8752;
     }
 
     .hamburger {
-        display: block;
+        display: flex;
     }
 
     nav ul.show {
@@ -312,15 +313,15 @@ main h1 {
         background-color: #AB8752;
     }
     .proyectos {
-        flex-direction: column; /* Alinea las cards en una sola columna */
-        align-items: center; /* Centra las cards */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .proyecto {
-        width: 90%; /* Ocupa el 90% del ancho disponible en móviles */
+        width: 90%; 
     }
 
     .foto img {
-        max-height: 150px; /* Reduce la altura máxima de la imagen en pantallas pequeñas */
+        max-height: 150px; 
     }
 }
