@@ -604,3 +604,136 @@ footer {
 }
 
 
+
+
+footer {
+    background-color: #222222;
+    color: #FFFFFF;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#logoUADE {
+    width: 100px;
+    margin-left: 20px;
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 400px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+
+    nav ul li a {
+        padding: 15px;
+        display: block;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        background-color: #AB8752;
+        border-bottom: 1px solid #AB8752;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    .proyectos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proyecto {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .tecnologias .logos {
+        flex-direction: column;
+    }
+
+    .tecnologias .logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* Funcionalidades para el menú hamburguesa */
+    #menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #222222;
+        text-align: left;
+        padding: 1rem;
+    }
+
+    #menu.show {
+        display: block;
+    }
+
+    #menu li {
+        margin-bottom: 10px;
+    }
+
+    #menu li a {
+        background-color: #AB8752;
+        color: #FFFFFF;
+        padding: 15px;
+        border-radius: 5px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    #menu li a:hover {
+        background-color: #AB8752;
+    }
+    .proyectos {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .proyecto {
+        width: 90%; 
+    }
+
+    .foto img {
+        max-height: 150px; 
+    }
+
+    .footer-content {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    #logoUADE {
+        margin: 10px ; 
+    }
+}
+
+
+
