@@ -225,6 +225,25 @@ main h1 {
     margin: 0 auto;
 }
 
+footer {
+    background-color: #222222;
+    color: #FFFFFF;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#logoUADE {
+    width: 100px;
+    margin-left: 20px;
+}
+
 /* Media query para pantallas pequeñas */
 @media screen and (max-width: 400px) {
     nav ul {
@@ -323,5 +342,14 @@ main h1 {
 
     .foto img {
         max-height: 150px; 
+    }
+
+    .footer-content {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    #logoUADE {
+        margin: 10px ; 
     }
 }
