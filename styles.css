@@ -462,7 +462,7 @@ main {
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    padding: 20px;
+    padding: 1px;
     border: 1px solid #ddd;
     border-radius: 8px;
     background: #555555;
