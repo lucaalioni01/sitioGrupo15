@@ -804,3 +804,148 @@ footer {
       width: 90%; /* Ajuste del ancho para pantallas pequeñas */
     }
   }
+
+
+
+
+/* css avances*/
+
+.nueva-pagina {
+    font-family: 'Itim', sans-serif;
+    background-color: #ffffff; /* Fondo oscuro */
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.nueva-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #A5D4A5; /* Verde del header */
+}
+
+.nueva-logo img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.nueva-nav {
+    background: #A5D4A5; /* Verde de navegación */
+    overflow: hidden;
+}
+
+.nueva-nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nueva-nav-links li {
+    list-style: none;
+}
+
+.nueva-nav-links li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #A5D4A5; /* Marrón claro de los botones */
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.nueva-nav-links li a:hover {
+    background-color: s#A5D4A5; /* Hover más claro */
+}
+
+.nueva-info {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.nueva-info p {
+    margin: 0.5rem 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.nueva-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #617776;
+    padding: 1.5rem;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 2rem auto;
+    color: #A5D4A5;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.color-info, .font-info {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.color-box {
+    width: 50px;
+    height: 50px;
+    margin: 0.5rem auto;
+    border: 1px solid #A5D4A5;
+}
+
+.logo-img p {
+    font-weight: bold;
+}
+
+.nueva-menu-diagram {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.nueva-img-organigrama {
+    max-width: 100%;
+    height: auto;
+}
+
+.nueva-roles {
+    margin: 2rem 0;
+}
+
+.nueva-roles h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.nueva-roles p {
+    font-size: 1rem;
+    margin: 0.3rem 0;
+    color: black;
+}
+
+.nueva-footer {
+    background-color: #A5D4A5;
+    padding: 1rem 0;
+    margin-top: auto;
+}
+
+.nueva-footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.nueva-footer a:hover {
+    text-decoration: underline;
+}
