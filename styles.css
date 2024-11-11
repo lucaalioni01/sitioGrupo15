@@ -193,6 +193,7 @@ main h1 {
     object-fit: contain;
     margin: 0 auto;
     display: block;
+    border-radius: 60px;
 }
 
 .tecnologias {
