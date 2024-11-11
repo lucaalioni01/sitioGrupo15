@@ -464,6 +464,7 @@ main {
     padding-top: 0;
 }
 .presentation-card {
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -474,14 +475,10 @@ main {
     border-radius: 8px;
     background: #555555;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    width: 1000px;
+    max-width: 400px;
 }
-.presentation-card ul {
-    display: flex;
-    justify-content: first baseline;
-    align-items:first baseline;
-    flex-direction: column;
-    gap: 10px;
-}
+
 
 footer {
     background-color: #222222;
