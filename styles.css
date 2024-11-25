@@ -911,6 +911,7 @@ footer {
 
 .logo-img p {
     font-weight: bold;
+    border-radius: 60px;
 }
 
 .nueva-menu-diagram {
